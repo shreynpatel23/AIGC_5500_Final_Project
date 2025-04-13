@@ -1,15 +1,15 @@
-# 📝 Yelp Sentiment Classifier: DistilBERT & LSTM
+# Yelp Sentiment Classifier: DistilBERT & LSTM
 
 This project performs sentiment classification on Yelp restaurant reviews using two deep learning models:
 
-- ✅ **DistilBERT** (Transformer-based classifier)
-- 🔁 **LSTM** (Recurrent neural network-based classifier)
+- **DistilBERT** (Transformer-based classifier)
+- **LSTM** (Recurrent neural network-based classifier)
 
 Both models are implemented from scratch using PyTorch.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -37,7 +37,7 @@ Both models are implemented from scratch using PyTorch.
 
 ---
 
-## ⚙️ Installation Instructions
+## Installation Instructions
 
 1. **Clone the Repository**
 
@@ -67,16 +67,16 @@ pip freeze > requirements.txt
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 📌 Step 1: Add Dataset
+### Step 1: Add Dataset
 
 Place your Yelp review dataset (e.g., `yelp.csv`) inside the `data/` folder.  
 Make sure both classifiers refer to the correct path in their respective `dataloader.py`.
 
 ---
 
-### 🤖 Run DistilBERT Model
+### Run DistilBERT Model
 
 ```bash
 cd distilbert_classifier
@@ -89,7 +89,7 @@ python main.py
 
 ---
 
-### 🔁 Run LSTM Model
+### Run LSTM Model
 
 ```bash
 cd lstm_classifier
@@ -102,7 +102,7 @@ python main.py
 
 ---
 
-## ✍️ Author
+## Author
 
 - Shrey Patel
 - Suyash Kulkarni
