@@ -42,8 +42,8 @@ Both models are implemented from scratch using PyTorch.
 1. **Clone the Repository**
 
 ```bash
-git clone <your-repository-url>
-cd <project-folder>
+git clone https://github.com/shreynpatel23/AIGC_5500_Final_Project.git
+cd AIGC_5500_Final_Project
 ```
 
 2. **Create a Virtual Environment**
@@ -57,12 +57,6 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 
 ```bash
 pip install -r requirements.txt
-```
-
-> If you don’t have a `requirements.txt`, generate it using:
-
-```bash
-pip freeze > requirements.txt
 ```
 
 ---
